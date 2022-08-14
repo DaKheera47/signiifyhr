@@ -1,4 +1,5 @@
 import React from "react";
+import CountUp from "react-countup";
 
 export default function Statistics() {
   return (
@@ -13,21 +14,33 @@ export default function Statistics() {
       <div className="container px-5 my-24 mx-auto">
         <div className="flex flex-wrap -m-4 text-center">
           <div className="p-4 sm:w-1/3 w-1/2">
-            <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
-              110345
-            </h2>
+            <CountUp
+              className="title-font font-medium sm:text-4xl text-3xl text-gray-900"
+              enableScrollSpy
+              duration={1}
+              end={110345}
+              suffix="+"
+            />
             <p className="leading-relaxed">Free Resume Reviews</p>
           </div>
           <div className="p-4 sm:w-1/3 w-1/2">
-            <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
-              593
-            </h2>
+            <CountUp
+              className="title-font font-medium sm:text-4xl text-3xl text-gray-900"
+              enableScrollSpy
+              duration={1}
+              end={593}
+              suffix="+"
+            />
             <p className="leading-relaxed">Revamped Resumes & Cover Letters</p>
           </div>
           <div className="p-4 sm:w-1/3 w-1/2">
-            <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
-              351
-            </h2>
+            <CountUp
+              className="title-font font-medium sm:text-4xl text-3xl text-gray-900"
+              enableScrollSpy
+              duration={1}
+              end={351}
+              suffix="+"
+            />
             <p className="leading-relaxed">Interviews Conducted</p>
           </div>
         </div>
