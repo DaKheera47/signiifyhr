@@ -92,7 +92,7 @@ export default function InterviewHints() {
     <div data-aos="fade-up" id="facetheinterview">
       <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
         <h1 className="h2 mb-2 mt-16">Face The Interview</h1>
-        <h4 className="h4 mb-2 font-light text-gray-600 capitalize">
+        <h4 className="h4 mb-2 font-light w-4/5 text-center mx-auto text-gray-600 capitalize">
           How to answer Common Interview Questions
         </h4>
       </div>
