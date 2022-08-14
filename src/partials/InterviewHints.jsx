@@ -96,8 +96,8 @@ export default function InterviewHints() {
           How to answer Common Interview Questions
         </h4>
       </div>
-      {data.map((item) => (
-        <Card question={item.question} type={item.typeOfAnswer} />
+      {data.map((item, i) => (
+        <Card key={i} question={item.question} type={item.typeOfAnswer} />
       ))}
     </div>
   );
