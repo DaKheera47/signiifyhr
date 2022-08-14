@@ -83,10 +83,10 @@ function Header() {
                   rel="noreferrer"
                   className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
                 >
-                  <div class="text-left">
-                    <div class="text-sm">
+                  <div className="text-left">
+                    <div className="text-sm">
                       Get a free
-                      <span class="ml-1 font-sans text-md font-semibold">
+                      <span className="ml-1 font-sans text-md font-semibold">
                         CV Review
                       </span>
                     </div>
