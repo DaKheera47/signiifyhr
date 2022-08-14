@@ -14,19 +14,19 @@ export default function Statistics() {
         <div className="flex flex-wrap -m-4 text-center">
           <div className="p-4 sm:w-1/3 w-1/2">
             <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
-              343
+              110345
             </h2>
             <p className="leading-relaxed">Free Resume Reviews</p>
           </div>
           <div className="p-4 sm:w-1/3 w-1/2">
             <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
-              110
+              593
             </h2>
             <p className="leading-relaxed">Revamped Resumes & Cover Letters</p>
           </div>
           <div className="p-4 sm:w-1/3 w-1/2">
             <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
-              79
+              351
             </h2>
             <p className="leading-relaxed">Interviews Conducted</p>
           </div>
