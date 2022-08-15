@@ -4,7 +4,7 @@ export default function FreeReview() {
   return (
     <div
       data-aos="fade-up"
-      className="py-12 mt-24 w-full text-center bg-white rounded-lg border shadow-md sm:p-8"
+      className="py-12 sm:py-24 w-full text-center bg-white rounded-lg border shadow-md"
     >
       <h5 className="mb-2 text-3xl font-bold text-gray-900">
         Get your Résumé Reviewed

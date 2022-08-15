@@ -6,6 +6,7 @@ import FreeReview from "../partials/FreeReview";
 import Header from "../partials/Header";
 import HeroHome from "../partials/HeroHome";
 import InterviewHints from "../partials/InterviewHints";
+import PDFRender from "../partials/PDFRender";
 import Statistics from "../partials/Statistics";
 
 function Home() {
@@ -24,6 +25,7 @@ function Home() {
         <Newsletter /> */}
         <Statistics />
         <InterviewHints />
+        <PDFRender />
         <FreeReview />
       </main>
 
