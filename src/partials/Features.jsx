@@ -249,7 +249,7 @@ function Features() {
                         and some need to revamp an outdated version.
                       </li>
                       <li className="py-0.5">
-                        This is a paid service, USD 75 for 2 pages resume and a
+                        This is a paid service, GBP 60 for 2 pages resume and a
                         cover letter/email.
                       </li>
                     </ul>
@@ -302,7 +302,7 @@ function Features() {
                         and microphone before that.
                       </li>
                       <li className="py-0.5">
-                        The paid service will cost you USD 145.00
+                        The paid service will cost you GBP 120
                       </li>
                     </ul>
                   </div>
