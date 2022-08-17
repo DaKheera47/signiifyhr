@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Transition from "../utils/Transition";
 
-
 function Features() {
   const [tab, setTab] = useState(1);
 
@@ -158,9 +157,8 @@ function Features() {
                       <li className="py-2">This is free of cost service.</li>
 
                       <li className="py-2">
-                        Just send your CV in PDF, Microsoft Word, or any image
-                        format - our expert HR consultants will review and send
-                        you the comments within 3-5 days.
+                        You can send your CV in PDF, Microsoft Word, or any
+                        image format
                       </li>
 
                       <li className="py-2">
@@ -175,36 +173,36 @@ function Features() {
                         and send us your CV.
                       </li>
 
-                        <a
-                          data-aos="fade-right"
-                          target="_blank"
-                          rel="noreferrer"
-                          href="https://forms.gle/UJDtkpJjDDkYQMK38"
-                          className="btn capitalize my-4 mx-auto text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                      <a
+                        data-aos="fade-right"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://forms.gle/UJDtkpJjDDkYQMK38"
+                        className="btn capitalize my-4 mx-auto text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-6 w-6 mr-3"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth={2}
                         >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 mr-3"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
-                            />
-                          </svg>
-                          <div className="text-left">
-                            <div className="text-sm">
-                              Get a free
-                              <span className="ml-1 font-sans text-md font-semibold">
-                                CV Review
-                              </span>
-                            </div>
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                          />
+                        </svg>
+                        <div className="text-left">
+                          <div className="text-sm">
+                            Get a free
+                            <span className="ml-1 font-sans text-md font-semibold">
+                              CV Review
+                            </span>
                           </div>
-                        </a>
+                        </div>
+                      </a>
                     </ul>
                   </div>
                 </Transition>
@@ -284,22 +282,22 @@ function Features() {
                         Your revamped resume is usually successful to get an
                         interview call. Whether you are fresh or experienced;
                         you need to re-polish your interview skills. Here,
-                        SIGNIIFYHR is able to facilitate.
+                        Signiify is able to facilitate.
                       </li>
                       <li className="py-0.5">
-                        We arrange 50 Minute Phone, Zoom, Skype, or WhatsApp
-                        Interview Preparation with one of our panel of interview
-                        consultants. Our mock interview service is to help the
-                        candidates to handle tricky questions during job
-                        interviews. These questions will lead to success and
-                        failure. Not only questions and answers but the overall
-                        body language is also responsible for the outcome of the
-                        job interview.
+                        We arrange phone, Zoom, Skype, or WhatsApp Interview
+                        Preparation with one of our panel of interview
+                        consultants for a duration of fifty minutes. Our mock
+                        interview service is to help the candidates to handle
+                        tricky questions during job interviews. These questions
+                        will lead to success and failure. Not only questions and
+                        answers but the overall body language is also
+                        responsible for the outcome of the job interview.
                       </li>
                       <li className="py-0.5">
-                        Please note that the MOCK INTERVIEWS are arranged on
-                        weekends on zoom online. You need to set up your webcam
-                        and microphone before that.
+                        Please note that the MOCK INTERVIEWS are arranged online
+                        on weekends. You need to set up your webcam and
+                        microphone before the given time.
                       </li>
                       <li className="py-0.5">
                         The paid service will cost you GBP 120

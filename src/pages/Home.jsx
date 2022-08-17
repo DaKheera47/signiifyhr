@@ -26,7 +26,7 @@ function Home() {
         <Statistics />
         <InterviewHints />
         <PDFRender />
-        <FreeReview />
+        {/* <FreeReview /> */}
         <div
           id="payment"
           data-aos="fade-up"

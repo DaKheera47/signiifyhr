@@ -10,7 +10,7 @@ function Footer() {
           <span className="ml-3 text-xl">By Signiify HR</span>
         </a>
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-          © 2022 Signiify HR
+          © 2017 Signiify HR
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a
