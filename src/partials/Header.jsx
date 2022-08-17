@@ -64,7 +64,7 @@ function Header() {
                     href="#whatsigniifydoes"
                     className="hover:underline underline-offset-4 font-medium text-gray-600 hover:text-gray-900 px-2 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out"
                   >
-                    What does Signiify do?
+                    What does Signiify Offer?
                   </a>
                 </li>
                 <li>
