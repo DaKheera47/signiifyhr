@@ -16,17 +16,17 @@ export default function Statistics() {
           <div className="p-4 sm:w-1/3 w-1/2">
             <CountUp
               className="title-font font-medium sm:text-4xl text-3xl text-gray-900"
-              enableScrollSpy
+              enableScrollSpy={true}
               duration={1}
               end={110345}
               suffix="+"
             />
-            <p className="leading-relaxed">Free Resume Reviews</p>
+            <p className="leading-relaxed">Resume Reviews</p>
           </div>
           <div className="p-4 sm:w-1/3 w-1/2">
             <CountUp
               className="title-font font-medium sm:text-4xl text-3xl text-gray-900"
-              enableScrollSpy
+              enableScrollSpy={true}
               duration={1}
               end={593}
               suffix="+"
@@ -36,7 +36,7 @@ export default function Statistics() {
           <div className="p-4 sm:w-1/3 w-1/2">
             <CountUp
               className="title-font font-medium sm:text-4xl text-3xl text-gray-900"
-              enableScrollSpy
+              enableScrollSpy={true}
               duration={1}
               end={351}
               suffix="+"

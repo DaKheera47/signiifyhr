@@ -92,9 +92,9 @@ function HeroHome() {
                     </svg>
                     <div className="text-left">
                       <div className="text-sm">
-                        Get a free
+                        Get Your
                         <span className="ml-1 font-sans text-md font-semibold">
-                          CV Review
+                          CV Reviewed
                         </span>
                       </div>
                     </div>
