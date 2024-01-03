@@ -10,6 +10,8 @@ import PDFRender from "../partials/PDFRender";
 import Statistics from "../partials/Statistics";
 
 function Home() {
+  const data = "IBAN PK83NAYA1234503215344604";
+
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
@@ -30,15 +32,18 @@ function Home() {
         <div
           id="payment"
           data-aos="fade-up"
-          className="py-12 sm:py-24 w-full text-center bg-white rounded-lg border shadow-md"
+          className="w-full py-12 text-center bg-white border rounded-lg shadow-md sm:py-24"
         >
           <h5 className="mb-5 text-3xl font-bold text-gray-900">How to Pay</h5>
-          <p className="text-base text-gray-500 sm:text-lg w-4/5 text-center md:w-3/5 mx-auto">
+          <p className="w-4/5 mx-auto text-base text-center text-gray-500 sm:text-lg md:w-3/5">
             Online bank transfer is available for all our services.
           </p>
 
-          <p className="mb-5 text-base md:text-xl text-blue-800 hover:underline underline-offset-2 sm:text-lg w-4/5 text-center md:w-3/5 mx-auto">
-            IBAN PK83NAYA1234503215344604
+          <p
+            onClick={navigator.clipboard.writeText(data)}
+            className="w-4/5 mx-auto mb-5 text-base text-center text-blue-800 cursor-pointer md:text-xl hover:underline underline-offset-2 sm:text-lg md:w-3/5"
+          >
+            {data}
           </p>
         </div>
       </main>
