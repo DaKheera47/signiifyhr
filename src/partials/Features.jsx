@@ -22,23 +22,23 @@ function Features() {
     <section className="relative" id="whatsigniifydoes">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
-        className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
+        className="absolute inset-0 mb-16 bg-gray-100 pointer-events-none"
         aria-hidden="true"
       ></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
+      <div className="absolute left-0 right-0 w-px h-20 p-px m-auto transform -translate-y-1/2 bg-gray-200"></div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="relative max-w-6xl px-4 mx-auto sm:px-6">
         <div className="pt-12 md:pt-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">What does Signiify offer?</h1>
+          <div className="max-w-3xl pb-12 mx-auto text-center md:pb-16">
+            <h1 className="mb-4 h2">What does Signiify offer?</h1>
           </div>
 
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">
             {/* Content */}
             <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6"
+              className="max-w-xl mx-auto md:max-w-none md:w-full md:col-span-7 lg:col-span-6 md:mt-6"
               data-aos="fade-right"
             >
               {/* Tabs buttons */}
@@ -56,7 +56,7 @@ function Features() {
                   }}
                 >
                   <div className="flex items-center">
-                    <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 mr-3">
+                    <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 mr-3 bg-white rounded-full shadow">
                       <svg
                         className="w-3 h-3 fill-current"
                         viewBox="0 0 12 12"
@@ -76,14 +76,14 @@ function Features() {
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
                       : "bg-blue-100 border-transparent"
                   }`}
-                  href="#0"
+                  href="#1"
                   onClick={(e) => {
                     e.preventDefault();
                     setTab(2);
                   }}
                 >
                   <div className="flex items-center">
-                    <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 mr-3">
+                    <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 mr-3 bg-white rounded-full shadow">
                       <svg
                         className="w-3 h-3 fill-current"
                         viewBox="0 0 12 12"
@@ -103,14 +103,14 @@ function Features() {
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
                       : "bg-blue-100 border-transparent"
                   }`}
-                  href="#0"
+                  href="#2"
                   onClick={(e) => {
                     e.preventDefault();
                     setTab(3);
                   }}
                 >
                   <div className="flex items-center">
-                    <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 mr-3">
+                    <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 mr-3 bg-white rounded-full shadow">
                       <svg
                         className="w-3 h-3 fill-current"
                         viewBox="0 0 12 12"
@@ -124,12 +124,41 @@ function Features() {
                     </div>
                   </div>
                 </a>
+
+                {/* item 4 */}
+                <a
+                  className={`flex capitalize items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
+                    tab !== 4
+                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
+                      : "bg-blue-100 border-transparent"
+                  }`}
+                  href="#3"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setTab(4);
+                  }}
+                >
+                  <div className="flex items-center">
+                    <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 mr-3 bg-white rounded-full shadow">
+                      <svg
+                        className="w-3 h-3 fill-current"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                      </svg>
+                    </div>
+                    <div className="font-bold tracking-tight">
+                      Applicant Tracking Systems (ATS) Optimisation
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
 
             {/* Tabs items */}
             <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
+              className="max-w-xl mx-auto mb-8 md:max-w-none md:w-full md:col-span-5 lg:col-span-6 md:mb-0 md:order-1"
               data-aos="zoom-y-out"
               ref={tabs}
             >
@@ -147,7 +176,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col text-left h-[450px]">
-                    <ul className="list-disc font-light text-sm sm:text-md mx-6 md:ml-6">
+                    <ul className="mx-6 text-sm font-light list-disc sm:text-md md:ml-6">
                       <li className="py-2">
                         You send us your existing resume and we will review it
                         and send you 3-5 recommendations on how to improve it to
@@ -178,11 +207,11 @@ function Features() {
                         target="_blank"
                         rel="noreferrer"
                         href="https://forms.gle/UJDtkpJjDDkYQMK38"
-                        className="btn capitalize my-4 mx-auto text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                        className="w-full mx-auto my-4 mb-4 text-white capitalize bg-blue-600 btn hover:bg-blue-700 sm:w-auto sm:mb-0"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="h-6 w-6 mr-3"
+                          className="w-6 h-6 mr-3"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -197,7 +226,7 @@ function Features() {
                         <div className="text-left">
                           <div className="text-sm">
                             Get Your
-                            <span className="ml-1 font-sans text-md font-semibold">
+                            <span className="ml-1 font-sans font-semibold text-md">
                               CV Reviewed
                             </span>
                           </div>
@@ -219,7 +248,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col text-left h-[750px] md:h-[475px]">
-                    <ul className="list-disc font-light text-sm sm:text-md mx-6 md:ml-6">
+                    <ul className="mx-6 text-sm font-light list-disc sm:text-md md:ml-6">
                       <li className="py-0.5">
                         You need to be ready to go into the new job hunt in a
                         different way from the approach you might have used
@@ -266,7 +295,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col text-left h-[750px] md:h-[500px]">
-                    <ul className="list-disc font-light text-sm sm:text-md mx-6 md:ml-6">
+                    <ul className="mx-6 text-sm font-light list-disc sm:text-md md:ml-6">
                       <li className="py-0.5">
                         Land the interview. Don't go at it alone. Let us help
                         you ace it.
@@ -301,6 +330,58 @@ function Features() {
                       </li>
                       <li className="py-0.5">
                         The paid service will cost you GBP 120
+                      </li>
+                    </ul>
+                  </div>
+                </Transition>
+                {/* Item 4 */}
+                <Transition
+                  show={tab === 4}
+                  appear={true}
+                  className="w-full"
+                  enter="transition ease-in-out duration-700 transform order-first"
+                  enterStart="opacity-0 translate-y-16"
+                  enterEnd="opacity-100 translate-y-0"
+                  leave="transition ease-in-out duration-300 transform absolute"
+                  leaveStart="opacity-100 translate-y-0"
+                  leaveEnd="opacity-0 -translate-y-16"
+                >
+                  <div className="relative inline-flex flex-col text-left h-[750px] md:h-[500px]">
+                    <ul className="mx-6 text-sm font-light list-disc sm:text-md md:ml-6">
+                      <li className="py-0.5">
+                        Are you applying for numerous positions but not getting
+                        any response?
+                      </li>
+
+                      <li className="py-0.5">
+                        Companies these days commonly utilize applicant tracking
+                        systems (ATS) to streamline their hiring process.
+                        Resumes submitted to an ATS are stored in a database,
+                        and hiring managers use keywords to search for suitable
+                        candidates. If your resume matches these keywords, it's
+                        visible; if not, it remains hidden, often resulting in
+                        no response to job applications.
+                      </li>
+
+                      <li className="py-0.5">
+                        This lack of response occurs because a single generic
+                        resume rarely aligns perfectly with all job
+                        descriptions. Tailoring your resume to each position
+                        increases your chances of securing interviews.
+                      </li>
+
+                      <li className="py-0.5">
+                        We will do this for you. Just three steps away:
+                        <br />
+                        <ol className="list-decimal">
+                          <li className="ml-4">Submit your resume.</li>
+                          <li className="ml-4">Share the job listing.</li>
+                          <li className="ml-4">
+                            We conduct 30+ checks on your resume, generating a
+                            score indicating how well it fits the specific job
+                            and suggesting necessary optimizations.
+                          </li>
+                        </ol>
                       </li>
                     </ul>
                   </div>
