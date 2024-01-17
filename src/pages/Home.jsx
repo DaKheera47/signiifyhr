@@ -10,7 +10,14 @@ import PDFRender from "../partials/PDFRender";
 import Statistics from "../partials/Statistics";
 
 function Home() {
-  const data = "IBAN PK83NAYA1234503215344604";
+  const data = (
+    <div>
+      <p>Bank Name: LLoyds Bank</p>
+      <p>Account Name: Shaheer Sarfaraz</p>
+      <p>Account Number: 45423860</p>
+      <p>Sort Code: 30-90-90</p>
+    </div>
+  );
 
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
@@ -39,10 +46,7 @@ function Home() {
             Online bank transfer is available for all our services.
           </p>
 
-          <p
-            onClick={navigator.clipboard.writeText(data)}
-            className="w-4/5 mx-auto mb-5 text-base text-center text-blue-800 cursor-pointer md:text-xl hover:underline underline-offset-2 sm:text-lg md:w-3/5"
-          >
+          <p className="w-4/5 mx-auto mb-5 text-base text-center text-blue-800 md:text-xl sm:text-lg md:w-3/5">
             {data}
           </p>
         </div>
