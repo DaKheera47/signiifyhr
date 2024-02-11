@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
@@ -50,18 +49,29 @@ function HeroHome() {
               SIGNIIFY
             </span>
             <h1
-              className="my-3 text-xl font-medium tracking-tight md:text-4xl"
+              className="my-3 text-xl font-medium tracking-tight md:text-3xl"
               data-aos="zoom-y-out"
             >
-              Your Online Career Coach
+              Unlock Your Business's Potential with Premium Leads
             </h1>
-            <div className="max-w-3xl mx-auto">
+            <div className="max-w-2xl mx-auto">
               <p
-                className="mb-8 text-lg text-gray-600"
+                className="text-lg text-gray-600"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                If you are hunting for the dream job, go with the right tools.
+                Welcome to Signiify Solutions, your premier provider of
+                high-quality leads tailored to elevate your business's growth
+                and success.
+              </p>
+              <br />
+              <p
+                className="mb-8 -mt-2 text-lg text-gray-600"
+                data-aos="zoom-y-out"
+                data-aos-delay="150"
+              >
+                If you're ready to supercharge your sales and expand your
+                customer base, you've come to the right place.
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
@@ -78,7 +88,7 @@ function HeroHome() {
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 mr-3"
+                      className="w-6 h-6 mr-2"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -91,12 +101,7 @@ function HeroHome() {
                       />
                     </svg>
                     <div className="text-left">
-                      <div className="text-sm">
-                        Get Your
-                        <span className="ml-1 font-sans font-semibold text-md">
-                          CV Reviewed
-                        </span>
-                      </div>
+                      <div className="text-sm">Get Your Leads</div>
                     </div>
                   </a>
                 </div>

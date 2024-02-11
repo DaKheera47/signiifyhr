@@ -19,7 +19,7 @@ function Header() {
         !top && "bg-white backdrop-blur-sm shadow-lg"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-5 sm:px-6">
+      <div className="max-w-6xl px-5 mx-auto sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
@@ -57,28 +57,28 @@ function Header() {
 
           {/* Site navigation */}
           <nav className="flex flex-grow">
-            <ul className="flex flex-grow justify-end flex-wrap items-center">
+            <ul className="flex flex-wrap items-center justify-end flex-grow">
               <div className="hidden md:flex">
                 <li>
                   <a
                     href="#whatsigniifydoes"
-                    className="hover:underline underline-offset-4 font-medium text-gray-600 hover:text-gray-900 px-2 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                    className="flex items-center px-2 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:underline underline-offset-4 hover:text-gray-900 sm:px-5"
                   >
                     What does Signiify Offer?
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#facetheinterview"
-                    className="hover:underline underline-offset-4 font-medium text-gray-600 hover:text-gray-900 px-2 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                    href="#lead_generation_process"
+                    className="flex items-center px-2 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:underline underline-offset-4 hover:text-gray-900 sm:px-5"
                   >
-                    Interview Questions
+                    Lead Generation Process
                   </a>
                 </li>
                 <li>
                   <a
                     href="#payment"
-                    className="hover:underline underline-offset-4 font-medium text-gray-600 hover:text-gray-900 px-2 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                    className="flex items-center px-2 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:underline underline-offset-4 hover:text-gray-900 sm:px-5"
                   >
                     How to Pay
                   </a>
@@ -89,18 +89,16 @@ function Header() {
                   href="https://forms.gle/UJDtkpJjDDkYQMK38"
                   target="_blank"
                   rel="noreferrer"
-                  className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
+                  className="ml-3 text-gray-200 bg-gray-900 btn-sm hover:bg-gray-800"
                 >
                   <div className="text-left">
                     <div className="text-sm">
-                      Get Your
-                      <span className="ml-1 font-sans text-md font-semibold">
-                        CV Reviewed
-                      </span>
+                      <span>Get Started</span>{" "}
+                      <span className="font-bold">Today</span>
                     </div>
                   </div>
                   <svg
-                    className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-4 -mr-1"
+                    className="flex-shrink-0 w-3 h-3 ml-4 -mr-1 text-gray-400 fill-current"
                     viewBox="0 0 12 12"
                     xmlns="http://www.w3.org/2000/svg"
                   >
