@@ -53,7 +53,7 @@ function Home() {
           </p>
         </div>
 
-        <div
+        {/* <div
           id="payment"
           data-aos="fade-up"
           className="w-full py-12 text-center bg-white border rounded-lg shadow-md sm:py-24"
@@ -66,7 +66,7 @@ function Home() {
           <p className="w-4/5 mx-auto mb-5 text-base text-center text-blue-800 md:text-xl sm:text-lg md:w-3/5">
             {data}
           </p>
-        </div>
+        </div> */}
       </main>
 
       {/*  Site footer */}
