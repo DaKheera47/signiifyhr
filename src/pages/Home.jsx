@@ -12,7 +12,7 @@ import Statistics from "../partials/Statistics";
 function Home() {
   const data = (
     <div>
-      <p>Bank Name: LLoyds Bank</p>
+      <p>Bank Name: Lloyds Bank</p>
       <p>Account Name: Shaheer Sarfaraz</p>
       <p>Account Number: 45423860</p>
       <p>Sort Code: 30-90-90</p>
@@ -36,7 +36,7 @@ function Home() {
         <InterviewHints />
         <PDFRender />
         {/* <FreeReview /> */}
-        <div
+        {/* <div
           id="payment"
           data-aos="fade-up"
           className="w-full py-12 text-center bg-white border rounded-lg shadow-md sm:py-24"
@@ -49,7 +49,7 @@ function Home() {
           <p className="w-4/5 mx-auto mb-5 text-base text-center text-blue-800 md:text-xl sm:text-lg md:w-3/5">
             {data}
           </p>
-        </div>
+        </div> */}
       </main>
 
       {/*  Site footer */}
