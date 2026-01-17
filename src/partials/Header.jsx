@@ -24,7 +24,7 @@ function Header() {
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Cruip">
+            <Link to="/" className="block" aria-label="UK SWE Jobs">
               <svg
                 className="w-8 h-8"
                 viewBox="0 0 32 32"
@@ -39,9 +39,9 @@ function Header() {
                     r="79.941%"
                     id="header-logo"
                   >
-                    <stop stopColor="#4FD1C5" offset="0%" />
-                    <stop stopColor="#81E6D9" offset="25.871%" />
-                    <stop stopColor="#338CF5" offset="100%" />
+                    <stop stopColor="#10B981" offset="0%" />
+                    <stop stopColor="#34D399" offset="25.871%" />
+                    <stop stopColor="#059669" offset="100%" />
                   </radialGradient>
                 </defs>
                 <rect
@@ -61,46 +61,54 @@ function Header() {
               <div className="hidden md:flex">
                 <li>
                   <a
-                    href="#whatsigniifydoes"
+                    href="#whatyouget"
                     className="hover:underline underline-offset-4 font-medium text-gray-600 hover:text-gray-900 px-2 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out"
                   >
-                    What does Signiify Offer?
+                    What You Get
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#facetheinterview"
+                    href="#whyitworks"
                     className="hover:underline underline-offset-4 font-medium text-gray-600 hover:text-gray-900 px-2 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out"
                   >
-                    Interview Questions
+                    Why It Works
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#payment"
+                    href="#pricing"
                     className="hover:underline underline-offset-4 font-medium text-gray-600 hover:text-gray-900 px-2 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out"
                   >
-                    How to Pay
+                    Pricing
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#faq"
+                    className="hover:underline underline-offset-4 font-medium text-gray-600 hover:text-gray-900 px-2 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  >
+                    FAQ
                   </a>
                 </li>
               </div>
               <li>
                 <a
-                  href="https://forms.gle/UJDtkpJjDDkYQMK38"
+                  href="https://wa.me/447412249600?text=Hi%2C%20I%27d%20like%20to%20buy%20the%20UK%20SWE%20Jobs%20list"
                   target="_blank"
                   rel="noreferrer"
-                  className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
+                  className="btn-sm text-gray-200 bg-emerald-600 hover:bg-emerald-700 ml-3"
                 >
                   <div className="text-left">
                     <div className="text-sm">
-                      Get Your
+                      Get
                       <span className="ml-1 font-sans text-md font-semibold">
-                        CV Reviewed
+                        Jobs List
                       </span>
                     </div>
                   </div>
                   <svg
-                    className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-4 -mr-1"
+                    className="w-3 h-3 fill-current text-emerald-200 flex-shrink-0 ml-4 -mr-1"
                     viewBox="0 0 12 12"
                     xmlns="http://www.w3.org/2000/svg"
                   >

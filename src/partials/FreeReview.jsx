@@ -4,22 +4,21 @@ export default function FreeReview() {
   return (
     <div
       data-aos="fade-up"
-      className="py-12 sm:py-24 w-full text-center bg-white rounded-lg border shadow-md"
+      className="py-12 sm:py-24 w-full text-center bg-gradient-to-br from-emerald-50 to-teal-50 rounded-lg border border-emerald-100 shadow-md"
     >
       <h5 className="mb-2 text-3xl font-bold text-gray-900">
-        Get your Résumé Reviewed
+        Ready to Stop Scrolling?
       </h5>
-      <p className="mb-5 text-base text-gray-500 sm:text-lg w-4/5 text-justify md:w-3/5 mx-auto">
-        You send us your existing resume and we will review it and send you 3-5
-        recommendations on how to improve it to make a better document.
+      <p className="mb-5 text-base text-gray-600 sm:text-lg w-4/5 text-center md:w-3/5 mx-auto">
+        Get your curated UK Software Engineering job list delivered to WhatsApp in minutes. Fresh data, sponsor-capable companies, ready to apply.
       </p>
       <div className="justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
         <a
           data-aos="fade-right"
           target="_blank"
           rel="noreferrer"
-          href="https://forms.gle/UJDtkpJjDDkYQMK38"
-          className="btn capitalize text-white bg-blue-600 hover:bg-blue-700 w-4/5 md:w-full max-w-xl mb-4 sm:w-auto sm:mb-0"
+          href="https://wa.me/447412249600?text=Hi%2C%20I%27d%20like%20to%20buy%20the%20UK%20SWE%20Jobs%20list"
+          className="btn capitalize text-white bg-emerald-600 hover:bg-emerald-700 w-4/5 md:w-full max-w-xl mb-4 sm:w-auto sm:mb-0"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -32,19 +31,22 @@ export default function FreeReview() {
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
-              d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+              d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
             />
           </svg>
           <div className="text-left">
             <div className="text-sm">
-              Get Your
+              Message on
               <span className="ml-1 font-sans text-md font-semibold">
-                CV Reviewed
+                WhatsApp
               </span>
             </div>
           </div>
         </a>
       </div>
+      <p className="mt-4 text-sm text-gray-500">
+        I'll send you a preview of the first 5 rows before payment
+      </p>
     </div>
   );
 }
